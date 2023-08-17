@@ -1,0 +1,63 @@
+.box1{
+    height: max-content;
+    border-radius: 10px;
+}
+
+.hr{
+    width: 70%;
+    /* height: vh; */
+    color: red;
+}
+.textfield{
+    width: 70%;
+    /* height: 0.5vh; */
+    padding: 0px 0px 0px 0px;
+}
+.dob{
+    width:50%;
+}
+.mainbox{
+    /* height: 270vh; */
+    height: max-content;
+    background-color: aqua;
+}
+.image{
+    border-radius: 10px;
+}
+.box2{
+    height: max-content;
+}
+.box3{
+    height: max-content;
+    border-radius: 10px;
+}
+.gender{
+    width: 50%;
+}
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 0px 20px 0px 20px !important;
+    height: 6.5vh !important;
+} */
+@media screen and (max-width:500px) {
+    .box1{
+        height: max-content;
+    }
+    .mainbox{
+        padding-left: 25px;
+        padding-right: 25px;
+        /* height: 310vh; */
+    }
+    .dob,.gender{
+        width: 70%;
+    }
+    .box4{
+        display: none;
+    }
+    .hr{
+        width: 90%;
+    }
+    .textfield{
+        width: 90%;
+    }
+}
+    
